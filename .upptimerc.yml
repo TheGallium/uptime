@@ -15,9 +15,9 @@ status-website:
   name: Upptime
   theme: light
   introTitle: "Status"
-  introMessage: Soyez au courrant du status de la connection avec flapy.xyz
+  introMessage: Soyez au courant du status de la connection avec flapy.xyz
   navbar:
-    - title: Revenir au site principal
+    - title: "Revenir au site principal →"
       href: https://flapy.xyz/novasphere
 
 i18n:
