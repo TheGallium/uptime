@@ -17,10 +17,8 @@ status-website:
   introTitle: "Status"
   introMessage: Soyez au courrant du status de la connection avec flapy.xyz
   navbar:
-    - title: Status
-      href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: Revenir au site principal
+      href: https://flapy.xyz/novasphere
 
 i18n:
   activeIncidents: Incidents en cours
