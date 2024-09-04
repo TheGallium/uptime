@@ -93,10 +93,10 @@ i18n:
   uptimeWeek: Disponibilité sur 7 jours
   uptimeMonth: Disponibilité sur 30 jours
   uptimeYear: Disponibilité sur 1 an
-  allSystemsOperational: ✅ Tout les systèmes sont opérationnels
-  degradedPerformance: 🟨 Performances dégradées
-  completeOutage: 🟥 Panne totale
-  partialOutage: 🟧 Panne partielle
+  allSystemsOperational: Tout les systèmes sont opérationnels
+  degradedPerformance: Performances dégradées
+  completeOutage: Panne totale
+  partialOutage: Panne partielle
 
 
 # Upptime also supports notifications, assigning issues, and more
