@@ -23,31 +23,81 @@ status-website:
       href: https://github.com/$OWNER/$REPO
 
 i18n:
-  url: "URL"
-  status: "Status"
-  history: "Historique"
-  uptime: "Uptime"
-  up: "✅ Opérationnel"
-  degraded: "⚠️ Dégradée"
-  down: "🟥 En panne"
-  responseTimeGraphAlt: "Graph de la latance"
-  ms: "ms"
-  responseTime: "Temps de réponse"
-  responseTimeDay: "Temps de réponse sur 24h"
-  responseTimeWeek: "Temps de réponse sur 7j"
-  responseTimeMonth: "Temps de réponse sur 30j"
-  responseTimeYear: "Temps de réponse sur 1 an"
-  uptimeDay: "Uptime sur 24h"
-  uptimeWeek: "Uptime sur 7j"
-  uptimeMonth: "Uptime sur 30j"
-  uptimeYear: "Uptime sur 1 an"
-  liveStatus: "Status en direct"
-  liveStatusHtmlComment: "<!--status en direct-->"
-  allSystemsOperational: "✅ Tout les systèmes sont opérationnels"
-  degradedPerformance: "⚠️ Performance dégradée"
-  completeOutage: "🟥 Panne complète"
-  partialOutage: "🟧 Panne partielle"
+  activeIncidents: Incidents en cours
+  allSystemsOperational: Tous les systèmes sont opérationnels
+  incidentReport: "Rapport d'incident #$NUMBER →"
+  activeIncidentSummary: Ouvert le $DATE avec $POSTS commentaires
+  incidentTitle: "Détails de l'incident $NUMBER"
+  incidentDetails: "Détails de l'incident"
+  incidentFixed: Corrigé
+  incidentOngoing: En cours
+  incidentOpenedAt: Ouvert le
+  incidentClosedAt: Fermé le
+  incidentViewOnGitHub: "Voir et s'abonner sur GitHub"
+  incidentCommentSummary: Publié le $DATE par $AUTHOR
+  incidentBack: ← Retour à tous les incidents
+  pastIncidents: Incidents passés
+  pastIncidentsResolved: Résolu en $MINUTES minutes
+  liveStatus: Statut actuel
+  overallUptime: "Disponibilité globale : $UPTIME"
+  overallUptimeTitle: Disponibilité globale
+  averageResponseTime: "Temps de réponse moyen : $TIMEms"
+  averageResponseTimeTitle: Réponse moyenne
+  sevelDayResponseTime: Temps de réponse sur 7 jours
+  responseTimeMs: Temps de réponse (ms)
+  up: En ligne
+  down: Hors ligne
+  degraded: Dégradé
+  ms: ms
+  loading: Chargement
+  navGitHub: GitHub
   footer: " "
+  rateLimitExceededTitle: Limite de requête dépassée
+  rateLimitExceededIntro: "Vous avez dépassé le nombre de requêtes que vous pouvez faire en une heure, vous devrez donc attendre avant d'accéder à nouveau à ce site Web. Alternativement, vous pouvez ajouter un Jeton d'Accès Personnel GitHub pour continuer à utiliser ce site Web."
+  rateLimitExceededWhatDoesErrorMean: Que signifie cette erreur ?
+  rateLimitExceededErrorMeaning: "Ce site Web utilise l'API GitHub pour accéder à des données en temps réel sur le statut de nos sites Web. Par défaut, GitHub autorise 60 requêtes par heure par adresse IP, que vous avez consommées."
+  rateLimitExceededErrorHowCanFix: Comment puis-je résoudre ce problème ?
+  rateLimitExceededErrorFix: "Vous pouvez attendre encore une heure et la limite de votre adresse IP sera restaurée. Alternativement, vous pouvez ajouter votre Jeton d'Accès Personnel GitHub, ce qui vous donne 5 000 requêtes supplémentaires par heure."
+  rateLimitExceededGeneratePAT: "Apprenez à générer un Jeton d'Accès Personnel"
+  rateLimitExceededHasSet: "Vous avec un jeton d'accès personnel défini."
+  rateLimitExceededRemoveToken: Supprimer le jeton
+  rateLimitExceededGitHubPAT: "Jeton d'Accès Personnel GitHub"
+  rateLimitExceededCopyPastePAT: Copiez et collez votre jeton
+  rateLimitExceededSaveToken: Enregistrer le jeton
+  errorTitle: "Une erreur s'est produite"
+  errorIntro: "Une erreur s'est produite lors de la tentative d'obtention des derniers détails du statut."
+  errorText: Vous pouvez réessayer dans quelques instants.
+  errorHome: "Retourner sur la page d'accueil"
+  pastScheduledMaintenance: Maintenance planifiée passée
+  scheduledMaintenance: Maintenance planifiée
+  scheduledMaintenanceSummaryStarted: Commencé le $DATE pour $DURATION minutes
+  scheduledMaintenanceSummaryStarts: Commence le $DATE pour $DURATION minutes
+  startedAt: Commencé le
+  startsAt: Commence le
+  duration: Durée
+  durationMin: $DURATION minutes
+  incidentCompleted: Terminé
+  incidentScheduled: Planifié
+  duration7D: 7j
+  duration30D: 30j
+  duration1Y: 1a
+  durationAll: max
+  status: Statut
+  history: Historique
+  uptime: Disponibilité
+  responseTime: Temps de réponse
+  responseTimeDay: Temps de réponse sur 24 heures
+  responseTimeWeek: Temps de réponse sur 7 jours
+  responseTimeMonth: Temps de réponse sur 30 jours
+  responseTimeYear: Temps de réponse sur 1 an
+  uptimeDay: Disponibilité sur 24 heures
+  uptimeWeek: Disponibilité sur 7 jours
+  uptimeMonth: Disponibilité sur 30 jours
+  uptimeYear: Disponibilité sur 1 an
+  allSystemsOperational: ✅ Tout les systèmes sont opérationnels
+  degradedPerformance: 🟨 Performances dégradées
+  completeOutage: 🟥 Panne totale
+  partialOutage: 🟧 Panne partielle
 
 
 # Upptime also supports notifications, assigning issues, and more
