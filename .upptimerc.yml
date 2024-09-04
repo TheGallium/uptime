@@ -22,5 +22,35 @@ status-website:
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
+i18n:
+  url: "URL"
+  status: "Status"
+  history: "Historique"
+  responseTime: "Temps de réponse"
+  uptime: "Uptime"
+  up: "✅ Opérationnel"
+  degraded: "⚠️ Dégradée"
+  down: "🟥 En panne"
+  responseTimeGraphAlt: "Graph de la latance"
+  ms: "ms"
+  responseTime: "Temps de réponse"
+  responseTimeDay: "Temps de réponse sur 24h"
+  responseTimeWeek: "Temps de réponse sur 7j"
+  responseTimeMonth: "Temps de réponse sur 30j"
+  responseTimeYear: "Temps de réponse sur 1 an"
+  uptime: "Uptime depuis toujours"
+  uptimeDay: "Uptime sur 24h"
+  uptimeWeek: "Uptime sur 7j"
+  uptimeMonth: "Uptime sur 30j"
+  uptimeYear: "Uptime sur 1 an"
+  liveStatus: "Status en direct"
+  liveStatusHtmlComment: "<!--status en direct-->"
+  allSystemsOperational: "✅ Tout les systèmes sont opérationnels"
+  degradedPerformance: "⚠️ Performance dégradée"
+  completeOutage: "🟥 Panne complète"
+  partialOutage: "🟧 Panne partielle"
+  footer: " "
+
+
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
