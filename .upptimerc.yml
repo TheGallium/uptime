@@ -37,7 +37,6 @@ i18n:
   responseTimeWeek: "Temps de réponse sur 7j"
   responseTimeMonth: "Temps de réponse sur 30j"
   responseTimeYear: "Temps de réponse sur 1 an"
-  uptime: "Uptime depuis toujours"
   uptimeDay: "Uptime sur 24h"
   uptimeWeek: "Uptime sur 7j"
   uptimeMonth: "Uptime sur 30j"
