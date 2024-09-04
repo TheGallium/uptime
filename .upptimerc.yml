@@ -80,7 +80,7 @@ i18n:
   incidentScheduled: Planifié
   duration7D: 7j
   duration30D: 30j
-  duration1Y: 1a
+  duration1Y: 1 an
   durationAll: max
   status: Statut
   history: Historique
