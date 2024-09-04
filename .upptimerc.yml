@@ -13,6 +13,7 @@ status-website:
   baseUrl: /uptime
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
+  theme: light
   introTitle: "Status"
   introMessage: Soyez au courrant du status de la connection avec flapy.xyz
   navbar:
