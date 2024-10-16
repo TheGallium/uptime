@@ -5,18 +5,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/flapy.xyz.ico",
     "slug": "flapy-xyz",
     "status": "up",
-    "uptime": "99.96%",
-    "uptimeDay": "99.34%",
-    "uptimeWeek": "99.91%",
-    "uptimeMonth": "99.98%",
-    "uptimeYear": "99.96%",
+    "uptime": "99.97%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "99.97%",
     "time": 808,
     "timeDay": 884,
     "timeWeek": 714,
     "timeMonth": 880,
     "timeYear": 808,
     "dailyMinutesDown": {
-      "2024-10-15": 10,
       "2024-09-10": 16
     }
   }
